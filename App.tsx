@@ -6,7 +6,7 @@ import { Timer } from './components/Timer';
 import { ChatOverlay } from './components/ChatOverlay';
 import { StatsFooter } from './components/StatsFooter';
 import { Coffee, RotateCw, LogOut, Clock, ChevronRight } from 'lucide-react';
-import { GoogleGenAI, Chat } from "@google/genai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // --- Constants for Persistence & Sync ---
 const STORAGE_KEY = 'coffee_break_stats_v1';
